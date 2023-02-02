@@ -2,7 +2,9 @@ import React, {FC} from 'react'
 import styles from './Htag.module.scss'
 import {HtagProps} from '@/components/Htag/Htag.props'
 
-export const Htag: FC<HtagProps> = ({tag, children}): JSX.Element => {
+export const Htag: FC<HtagProps> = (props): JSX.Element => {
+	const {tag, children} = props
+
 	switch (tag) {
 		case 'h1':
 			return <h1 className={styles.h1}>{children}</h1>

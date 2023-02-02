@@ -1,26 +1,27 @@
 @import "styles/vars";
 
 .h1, .h2, .h3 {
-  font-family: $font-family;
-  color: $color-black;
+	color: $color-black;
+
+	font-family: $font-family;
 }
 
 .h1 {
-  font-weight: $fw-medium;
-  font-size: 26px;
-  line-height: 35px;
+	font-size: 26px;
+	font-weight: $fw-medium;
+	line-height: 35px;
 }
 
 .h2 {
-  font-weight: $fw-medium;
-  font-size: 22px;
-  line-height: 30px;
+	font-size: 22px;
+	font-weight: $fw-medium;
+	line-height: 30px;
 }
 
 .h3 {
-  font-weight: $fw-semi-bold;
-  font-size: 20px;
-  line-height: 27px;
+	font-size: 20px;
+	font-weight: $fw-semi-bold;
+	line-height: 27px;
 }
 
 // Посметр 002 первый компонент
