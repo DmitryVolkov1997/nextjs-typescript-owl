@@ -9,18 +9,19 @@
   transition-property: all;
   text-align: center;
 
+  border: none;
+
   border-radius: 5px;
 
   font-family: $font-family;
   font-size: 14px;
   font-weight: $fw-regular;
   line-height: 19px;
-  border: none;
 }
 
 .primary {
-  background: $color-primary;
   color: $color-white;
+  background: $color-primary;
 
   &:hover {
     background: $color-primary-hover;
@@ -29,10 +30,23 @@
 
 .ghost {
   color: $color-black;
-  background: $color-white;
   border: 1px solid $color-light-gray;
+  background: $color-white;
 
   &:hover {
     background: darken($color-white, 5%);
   }
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.primary svg {
+  fill: $color-white;
+}
+
+.down {
+  transform: rotate(90deg);
 }
