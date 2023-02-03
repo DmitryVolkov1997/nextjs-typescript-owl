@@ -4,7 +4,7 @@ import cn from 'classnames'
 import {ButtonProps} from '@/components/Button/Button.props'
 import ArrowIcon from './arrow.svg'
 
-const Button: FC<ButtonProps> = (props): JSX.Element => {
+export const Button: FC<ButtonProps> = (props): JSX.Element => {
 	const {appearance, arrow = 'none', children, className, ...rest} = props
 
 	return (
@@ -21,4 +21,3 @@ const Button: FC<ButtonProps> = (props): JSX.Element => {
 	)
 }
 
-export default Button
