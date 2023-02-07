@@ -1,0 +1,55 @@
+@import "styles/vars";
+
+.tag {
+  font-family: $font-family;
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 20px;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.md {
+  padding: 5px 15px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.ghost {
+  border: 1px solid $color-light-gray;
+  font-weight: $fw-medium;
+  color: $color-black;
+}
+
+.red {
+  background: $color-dark-red;
+  font-weight: $fw-semi-bold;
+  color: $color-white;
+}
+
+.gray {
+  background: $color-dark-gray;
+  font-weight: $fw-semi-bold;
+  color: $color-white;
+}
+
+.green {
+  background: $color-light-green;
+  font-weight: $fw-bold;
+  color: $color-green;
+}
+
+.primary {
+  border: 1px solid $color-primary;
+  font-weight: $fw-medium;
+  color: $color-primary;
+}
